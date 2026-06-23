@@ -25,6 +25,7 @@ async function Log(stack, level, packageName, message){
 
     catch(err){
         console.error("logger error:", err.message);
+        console.log("hi");
     }
 }
 

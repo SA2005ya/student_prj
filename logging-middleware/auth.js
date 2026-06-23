@@ -1,5 +1,6 @@
 // auth.js
 function getToken(){
+    console.log("hi");
     return "dummy_token_123";
 }
 
